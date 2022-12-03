@@ -1,0 +1,115 @@
+
+
+/*********************************** aboutus Section starts here ***********************************/
+.aboutus{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.aboutus .aboutus-inner{
+    text-align: justify;
+    padding: 40px 10px;
+}
+
+.aboutus .aboutus-inner p{
+    font-size: clamp(1rem, 1.3vw, 2rem);
+    line-height: clamp(1.5rem, 2.2vw, 4rem);
+}
+.aboutus .aboutus-inner p strong{
+    color: #3361FF;
+}
+
+/*********************************** aboutus Section ends here ***********************************/
+
+/*********************************** privacy-policy Section starts here ***********************************/
+.privacy-policy{
+    width: 100%;
+    min-height: 100vh;
+}
+.privacy-policy .privacy-policy-inner{
+    width: 100%;
+    padding: 40px 10px;
+}
+.privacy-policy .privacy-policy-inner a{
+    text-decoration: none;
+    color: #3361FF;
+}
+
+/*********************************** privacy-policy Section ends here ***********************************/
+
+/*********************************** termsandconditions Section starts here ***********************************/
+.termsandconditions{
+    width: 100%;
+    min-height: 100vh;
+}
+.termsandconditions .termsandconditions-inner{
+    width: 100%;
+    padding: 40px 10px;
+}
+/*********************************** termsandconditions Section ends here ***********************************/
+
+
+
+/*********************************** contractus Section starts here ***********************************/
+
+.contractus{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    height: 100vh;
+    justify-content: center;
+}
+.contractus .contractus-inner{
+    width: 100%
+}
+.contractus .contractus-inner .send-btn{
+    text-align: center;
+}
+
+.contractus .contractus-inner .send-btn .btn{
+    background-color: #3361FF;
+    border: 2px solid #3361FF;
+}
+
+.contractus .contractus-inner .send-btn .btn:hover{
+    background: transparent;
+    color: #3361FF;
+
+}
+.contractus  .contractus-text{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.contractus  .contractus-text h2{
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .contractus .contractus-inner input{
+        width: 150%;
+
+    }
+    .contractus .contractus-inner textarea {
+        width: 150%;
+    }
+    #contact-form{
+        margin-left: -50px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .contractus .contractus-inner input{
+        width: 150%;
+
+    }
+    .contractus .contractus-inner textarea {
+        width: 150%;
+    }
+    #contact-form{
+        margin-left: -50px;
+    }
+}
+/*********************************** contractus Section ends here ***********************************/

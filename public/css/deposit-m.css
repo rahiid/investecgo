@@ -1,0 +1,318 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-image: url("../image/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/*********************************** Header-section Section starts here ***********************************/
+.header-section{
+    padding-top: 8px;
+    
+
+ 
+
+   background-color: #3361FF;
+}
+.header-section .right-menu img{
+    height: 40px;
+    
+}
+.header-section .navbar{
+    
+    padding-left: 3%;  
+
+      
+
+  
+}
+.header-section .navbar .menu{
+    
+    width:40px; 
+    height:35px; 
+
+      
+
+  
+}
+
+
+
+/*********************************** Header-section Section ends here ***********************************/
+
+/*********************************** user-section Section starts here ***********************************/
+
+
+
+/************************* user-slider Section starts here *************************/
+
+
+ .user-sidebar{
+
+
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+    height: 100%;
+}
+ .user-sidebar{
+    padding-top: 50px;
+    text-align: center;
+
+}
+ .user-sidebar .profile-userpic img{
+    height: 15vh;
+    width: clamp(50px, 70%, 100px);
+    margin-bottom: .5rem;
+}
+
+ .user-sidebar .profile-userpic p{
+
+    color: #3361FF;
+    font-weight:700;
+    font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+
+}
+
+
+
+ .user-sidebar .sidebar-bottom{
+    margin-top: 4vh;
+}
+
+ .user-sidebar .sidebar-bottom .sidebar-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    place-content: left;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    position: relative;
+
+}
+ .user-sidebar .sidebar-bottom .sidebar-items .sidebar-links {
+    display:block;
+    overflow:auto;
+
+}
+
+ .user-sidebar .sidebar-bottom .sidebar-items a{
+
+    color: black;
+
+
+}
+ .user-sidebar .sidebar-bottom .sidebar-items  i{
+    margin-right: 0.7rem;
+    font-size: clamp(1rem, 2vw, 1rem);
+}
+ .user-sidebar .sidebar-bottom .sidebar-items a h5{
+
+    font-size: clamp(.8rem, 1vw, 1rem);
+}
+
+ .user-sidebar .sidebar-bottom #u1{
+
+    background-color: #3361FF;
+}
+ .user-sidebar .sidebar-bottom #u1 a{
+    color: white;
+}
+ .user-sidebar .sidebar-bottom #u1 i{
+    color: white;
+}
+
+
+ .user-sidebar .invest-now-button{
+    width: 100%;
+    text-align: center;
+}
+
+
+ .user-sidebar .invest-now-button .btn{
+    width: 50%;
+    background-color: #3361FF;
+    color: white;
+    border: 1px solid #3361FF;
+    font-weight: 500;
+    padding: 4px;
+    font-size: clamp(.6rem, 1vw, 1rem);
+}
+ .user-sidebar .invest-now-button .btn:hover{
+    color: #3361FF;
+    background-color: transparent;
+
+}
+
+
+/************************* user-slider Section ends here *************************/
+
+
+/**************** addmoney Section starts here ******************/
+
+
+ .user-info .addmoney{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ .user-info .addmoney .addmoney-inner{
+    display: inline;
+    width: 90%;
+    
+}
+
+
+ .user-info .addmoney .addmoney-inner img{
+    width: clamp(20px, 5vw, 40px);
+
+    height: 30px;
+    padding: .1rem;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+ .user-info .addmoney .addmoney-inner [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+ .user-info .addmoney .addmoney-inner [type=radio] + img {
+    cursor: pointer;
+}
+
+ .user-info .addmoney .addmoney-inner [type=radio]:checked + img {
+    outline: 2px solid #3361FF;
+    border-radius: 5px;
+
+}
+
+
+ .user-info .addmoney .addmoney-text h5{
+    padding-top: 10px;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    font-weight: 700;
+}
+ .user-info .addmoney .addmoney-text p{
+    padding-top: 20px;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    line-height: 1.5rem;
+    padding-right: 10px;
+
+}
+ .user-info .addmoney .addmoney-text p strong{
+
+    line-height: 1vh;
+
+}
+
+ .user-info .addmoney .addmoney-items{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+ .user-info .addmoney .addmoney-control  input{
+    text-indent: 1rem;
+
+}
+
+.user-info .addmoney .addmoney-control  input[type=text]:focus{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt #3361FF;
+    outline: none;
+    transition: .1s;
+    
+  }
+ 
+ .user-info .addmoney .addmoney-items h6{
+    padding: 2vh 0vh;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+}
+
+ .user-info .addmoney .addmoney-items h6 span{
+   color: #3361FF;
+   font-weight: 700;
+}
+
+ .user-info .addmoney .addmoney-items input{
+    background-color: white;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    height: 35px;
+    padding: 18px 0px;
+}
+
+.user-info .addmoney .addmoney-items input[type=text]:focus{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt #3361FF;
+    outline: none;
+    transition: .1s;
+    
+  }
+ .user-info .addmoney .addmoney-items label{
+    text-align: left;
+    color: #666668;
+    font-weight: 600;
+}
+
+
+ .user-info .addmoney .addmoney-items .btn{
+    background-color: #3361FF;
+    border: 1px solid #3361FF;
+}
+
+ .user-info .addmoney .addmoney-items .btn:hover{
+    background-color: white;
+    color: #3361FF;
+}
+
+ .user-info .addmoney .deposit-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+ .user-info .addmoney .deposit-table .table thead{
+    background-color: #3361FF;
+    color: white;
+
+}
+ .user-info .addmoney .deposit-table .table thead th{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+/**************** addmoney Section ends here ******************/
+
+

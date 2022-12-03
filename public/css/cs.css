@@ -1,0 +1,32 @@
+
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("/image/f1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper .cs-wrapper{
+    width: 100%;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wrapper .cs-wrapper h1{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(204, 204, 204, 0.349);
+    color: #3361FF;
+    font-size: clamp(3rem, 5vw, 15rem);
+}
+

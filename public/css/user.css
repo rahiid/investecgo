@@ -1,0 +1,250 @@
+
+/*********************************** user-section Section starts here ***********************************/
+
+.user-section{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -24px;
+    margin-bottom: -24px;
+}
+
+
+/************************* user-slider Section starts here *************************/
+
+
+.user-section .user-sidebar{
+    width: 20%;
+    float: left;
+    background-color: white;
+    min-height: 100vh;
+    height: 100%;
+}
+.user-section .user-sidebar{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.user-section .user-sidebar .profile-userpic img{
+    height: 15vh;
+    width: clamp(50px, 70%, 100px);
+    margin-bottom: .5rem;
+}
+
+.user-section .user-sidebar .profile-userpic p{
+
+    color: #3361FF;
+    font-weight:700;
+    font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+
+}
+
+
+
+.user-section .user-sidebar .sidebar-bottom{
+    margin-top: 4vh;
+}
+
+.user-section .user-sidebar .sidebar-bottom .sidebar-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    place-content: left;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    position: relative;
+
+}
+.user-section .user-sidebar .sidebar-bottom .sidebar-items .sidebar-links {
+    display:block;
+    overflow:auto;
+
+}
+
+.user-section .user-sidebar .sidebar-bottom .sidebar-items a{
+
+    color: black;
+
+
+}
+.user-section .user-sidebar .sidebar-bottom .sidebar-items  i{
+    margin-right: 0.7rem;
+    font-size: clamp(1rem, 2vw, 1rem);
+}
+.user-section .user-sidebar .sidebar-bottom .sidebar-items a h5{
+
+    font-size: clamp(.8rem, 1vw, 1rem);
+}
+
+.user-section .user-sidebar .sidebar-bottom #u1{
+
+    background-color: #3361FF;
+}
+.user-section .user-sidebar .sidebar-bottom #u1 a{
+    color: white;
+}
+.user-section .user-sidebar .sidebar-bottom #u1 i{
+    color: white;
+}
+
+
+.user-section .user-sidebar .invest-now-button{
+    width: 100%;
+    text-align: center;
+}
+
+
+.user-section .user-sidebar .invest-now-button .btn{
+    width: 50%;
+    background-color: #3361FF;
+    color: white;
+    border: 1px solid #3361FF;
+    font-weight: 500;
+    padding: 4px;
+    font-size: clamp(.6rem, 1vw, 1rem);
+}
+.user-section .user-sidebar .invest-now-button .btn:hover{
+    color: #3361FF;
+    background-color: transparent;
+
+}
+
+
+/************************* user-slider Section ends here *************************/
+
+
+.user-section .user-info{
+    width: 80%;
+    float: left;
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    height: 100%;
+
+}
+
+.user-info .user-inner{
+    background-color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+
+    width: 90%;
+
+
+}
+
+.user-info .user-inner .info-bar{
+    width: 100%;
+    background-color: white;
+}
+
+.user-info .user-inner .info-bar p{
+    color: #3361FF;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+}
+.user-info .user-inner h5{
+    padding-top: 10px;
+    font-size: clamp(0.5rem, 2vw, 1.2rem);
+}
+.user-info .user-inner .user_change_btn{
+    color: blue;
+    font-size: clamp(0.5rem, 1vw, 0.8rem);
+    margin-left: 2px;
+    border:none;
+    background-color: transparent;
+
+}
+
+.user-info .user-inner  .user_change_btn:focus {
+    outline: none;
+}
+
+.user-info .user-inner .change_input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+
+}
+
+
+.user-info .user-inner .change_input>input{
+    width: 80%;
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: clamp(0.2rem, .4vmax, 0.5rem);
+    text-indent: .5rem;
+}
+.user-info .user-inner .change_input>button{
+    margin-left: 10px;
+    border: 1px solid #3361FF;
+    border-radius: 5px;
+    background-color: #3361FF;
+    padding: clamp(0.2rem, .4vmax, 0.5rem);
+    font-size: clamp(0.5rem, 1vw, 0.8rem);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.user-info .user-inner .change_input>button:hover{
+    border: 1px solid #3361FF;
+    background-color: transparent;
+    color: #3361FF;
+}
+.user-info .user-inner .change_input>button:focus{
+    outline: none;
+}
+.user-info .user-inner .change_input .u_cancel{
+    background-color: red;
+    border: 1px solid red;
+}
+
+.user-info .user-inner .change_input .u_cancel:focus{
+    outline: none;
+}
+
+.user-info .user-inner .change_input .u_cancel:hover{
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+@media screen and (max-width: 440px) {
+
+    .user-info .user-inner .change_input>button{
+        margin-top: .5rem;
+
+    }
+}
+
+/*********************************** user-section Section ends here ***********************************/
+
+/*********************************** user-section responsive code starts here ***********************************/
+
+@media screen and (max-width: 800px) {
+
+    .user-section .user-sidebar{
+        width: 30%;
+
+    }
+    .user-section .user-info{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .user-section .user-sidebar .sidebar-bottom .sidebar-items i{
+        display: none;
+
+    }
+}
+
+/*********************************** user-section responsive code starts here ***********************************/

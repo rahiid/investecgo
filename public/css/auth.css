@@ -1,0 +1,121 @@
+
+
+
+/*********************************** login-section Section starts here ***********************************/
+.login-section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.login-section .login-inner .card-header {
+    color: black;
+}
+.login-section .login-inner .card-header strong{
+    color: #3361FF;
+    font-size: 1.2rem;
+}
+
+.login-section .login-inner{
+    margin-top: 50px;
+}
+.login-section .login-inner .login-form{
+    margin-top: 40px;
+
+    padding-bottom: 50px;
+}
+.login-section .login-inner .login-form .login-btn button{
+    background-color: #3361FF;
+    border: 1px solid #3361FF;
+
+}
+.login-section .login-inner .login-form .login-btn button:hover{
+    background-color: transparent;
+    border: 1px solid #3361FF;
+    color: #3361FF;
+}
+.login-section .login-inner .login-form .login-btn a{
+    color: black;
+
+    text-decoration: none;
+}
+.login-section .login-inner .login-form .login-btn a:hover{
+    color: #3361FF;
+}
+/*********************************** login-section Section ends here ***********************************/
+
+
+/*********************************** signup-section Section starts here ***********************************/
+
+
+.signup-section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.signup-section .signup-inner{
+    margin-top: 50px;
+}
+
+.signup-section .signup-inner .card-header{
+    color: black;
+
+}
+.signup-section .signup-inner .card-header strong{
+    color: #3361FF;
+    font-size: 1.2rem;
+}
+
+.signup-section .signup-inner .signup-form{
+    margin-top: 40px;
+
+    padding-bottom: 50px;
+}
+
+.signup-section .signup-inner .signup-form button{
+    background-color: #3361FF;
+    border: 1px solid #3361FF;
+
+}
+
+.signup-section .signup-inner .signup-form button:hover{
+    background-color: transparent;
+    border: 1px solid #3361FF;
+    color: #3361FF;
+}
+
+/*********************************** signup-section Section ends here ***********************************/
+#primary-btn{
+    color: white;
+    background-color: #3361FF;
+    border: 1px solid #3361FF;
+}
+
+#primary-btn:hover{
+    color: #3361FF;
+    background-color: white;
+
+}
+
+
+
+/*********************************** verifyemail-section Section starts here ***********************************/
+
+.verify-section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.verify-section .verify-inner .card-header {
+    color: black;
+}
+
+.verify-section .verify-inner{
+    margin-top: 50px;
+}
+
+.verify-section .verify-inner .verify-form{
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+/*********************************** verifyemail-section Section ends here ***********************************/

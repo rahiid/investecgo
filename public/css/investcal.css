@@ -1,0 +1,22 @@
+.investcal-section{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.investcal-section .investcal-inner{
+    width: 100%;
+    text-align: center;
+
+
+}
+.investcal-section  h2{
+    color: #3361FF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.investcal-section .investcal-inner .form-group{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
